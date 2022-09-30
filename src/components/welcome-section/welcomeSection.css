@@ -1,0 +1,72 @@
+.hire_btn {
+    background: #fff;
+    color: #0e1b31;
+}
+
+.hire_btn a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hire_btn:hover a {
+    color: #0e1b31;
+}
+
+.welcome_title span {
+    color: #7865ff;
+}
+
+.welcome_title {
+    font-weight: 600;
+}
+
+
+.welcome_img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    opacity: 0.8;
+
+    margin-left: auto;
+}
+
+.welcome_section {
+    padding-top: 150px;
+}
+
+.welcome-content p {
+    line-height: 30px;
+    font-weight: 300;
+}
+
+@media only screen and(max-width:992px) {
+    .welcome_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .welcome_content p {
+        font-size: .8rem;
+    }
+
+    .welcome_btn button {
+        display: block;
+        padding: 5px 20px;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and(max-width:576px) {
+    .welcome_img {
+        margin: auto;
+    }
+
+    .welcome_content {
+        margin-bottom: 50px;
+        padding: 50px;
+    }
+
+    .welcome_title {
+        font-size: 1.5rem;
+    }
+}

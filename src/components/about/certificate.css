@@ -1,0 +1,21 @@
+
+.single_certificate{
+    background: #132347;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid #7865ff;
+}
+.certificate_item{
+    width: 47%;
+    margin-bottom: 20px;
+}
+.certificate_title span{
+    font-weight: 300 !important;
+    color: #fff;
+    opacity: 70% !important;
+    font-size: 0.8rem;
+} 
+.certificate_year{
+    color: #fff;
+    margin-bottom: 15px;
+} 
